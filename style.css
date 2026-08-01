@@ -1,3 +1,56 @@
-body {
-    font-family: 'Times New Roman', Times, serif;
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+.body {
+  background-color: #f4f4f4;
+  padding:40px;
+}
+
+.content {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main-content{
+    background:white;
+    border:1px solid #d9d9d9;
+    min-height:350px;
+    padding:40px;
+}
+
+footer{
+    background:#35495e;
+    color:white;
+    padding:35px;
+    margin-top: 30rem;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:35px;
+
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+}
+
+
+hr{
+    margin:20px 0;
+    border:.5px solid rgba(255,255,255,.2);
+}
+
+.copyright{
+    text-align:center;
 }
